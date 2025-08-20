@@ -1,5 +1,7 @@
 # Leaderboard Task
 
+## https://leaderboard-task-tau.vercel.app/
+
 A full-stack leaderboard application built with Node.js backend and React frontend that allows users to claim random points and displays dynamic rankings.
 
 ## Features
