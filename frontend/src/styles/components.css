@@ -1,0 +1,204 @@
+/* Component Styles - Forms, Buttons, User Controls */
+
+/* User Controls */
+.user-controls {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 15px 20px;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+/* Add User Section */
+.add-user-section {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 15px 20px;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.control-section {
+  margin-bottom: 20px;
+}
+
+.control-section:last-child {
+  margin-bottom: 0;
+}
+
+.control-section h3 {
+  color: #ff6b35;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+/* Form styles */
+.add-user-form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.user-input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.user-input:focus {
+  outline: none;
+  border-color: #ff6b35;
+}
+
+.claim-section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.user-select {
+  flex: 1;
+  min-width: 180px;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  background: white;
+}
+
+.user-select:focus {
+  outline: none;
+  border-color: #ff6b35;
+}
+
+/* Button styles */
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-add {
+  background: #28a745;
+  color: white;
+}
+
+.btn-add:hover {
+  background: #218838;
+}
+
+.btn-claim {
+  background: #ff6b35;
+  color: white;
+}
+
+.btn-claim:hover {
+  background: #e55a2e;
+}
+
+.btn-primary {
+  background: #ff6b35;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #e55a2e;
+}
+
+.btn-secondary {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background: #e0e0e0;
+}
+
+.btn-danger {
+  background: #dc3545;
+  color: white;
+}
+
+.btn-danger:hover {
+  background: #c82333;
+}
+
+.btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+/* Form groups for modal */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #ff6b35;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.button-group .btn {
+  flex: 1;
+  padding: 12px;
+}
+
+/* Claim result display */
+.claim-result {
+  margin-top: 12px;
+  padding: 12px;
+  background: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 8px;
+  color: #155724;
+  font-size: 14px;
+}
+
+.claim-result p {
+  margin: 3px 0;
+  font-weight: 600;
+}
+
+/* Responsive for components */
+@media (max-width: 480px) {
+  .add-user-form {
+    flex-direction: column;
+  }
+  
+  .claim-section {
+    flex-direction: column;
+  }
+  
+  .user-select {
+    width: 100%;
+  }
+}
