@@ -74,6 +74,14 @@
   font-size: 38px;
 }
 
+.podium-place.second .podium-avatar {
+  border-color: #c0c0c0;
+}
+
+.podium-place.third .podium-avatar {
+  border-color: #cd7f32;
+}
+
 .podium-rank {
   position: absolute;
   bottom: -5px;
