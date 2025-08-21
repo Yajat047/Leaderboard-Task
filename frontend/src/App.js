@@ -74,6 +74,17 @@ function App() {
     return (
       <div className="app">
         <div className="loading">Loading...</div>
+        <div style={{ 
+          background: 'rgba(255, 255, 255, 0.9)', 
+          margin: '20px', 
+          padding: '15px', 
+          borderRadius: '10px', 
+          color: '#ff6b35', 
+          fontWeight: 'bold', 
+          textAlign: 'center' 
+        }}>
+          ⚠️ Note: Backend is hosted on Render (free tier), so please wait a few seconds after adding points or adding users for the changes to reflect.
+        </div>
       </div>
     );
   }
